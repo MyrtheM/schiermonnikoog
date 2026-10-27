@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#432d25">
   <meta name="description" content="Ons kookclubweekend op Schiermonnikoog. 6 t/m 8 november 2026, Hotel van der Werff. Uitwaaien, fietsen en uitgebreid tafelen.">
   <title>Even op Schier | 6 - 8 november 2026</title>
@@ -23,6 +23,83 @@
     @media(min-width:1500px){.hero{min-height:660px}.hero-inner{padding-block:95px}}
     @media(max-width:900px){.wrap{width:calc(100% - 48px)}.nav-links{gap:17px}.nav-date{display:none}.hero{min-height:570px}h1{font-size:85px}.hotel-grid{gap:35px}.hotel-copy h2{font-size:42px}.hotel-image img{height:380px}.program-layout{grid-template-columns:200px 1fr;gap:35px}.route-grid{gap:30px}.route-aside{padding:26px}.dinner-copy{padding:45px 30px}.dinner h2{font-size:41px}.packing-grid{gap:40px}.pub-list{gap:20px}.pub p{min-height:110px}}
     @media(max-width:600px){html{scroll-padding-top:20px}.wrap{width:calc(100% - 40px)}.nav{height:auto;min-height:105px;flex-direction:column;gap:13px;padding-block:15px}.brand strong{font-size:23px}.brand-mark{width:29px;height:34px}.brand small{font-size:8px}.nav-links{gap:24px;justify-content:center;width:100%}.nav-links a{font-size:10px}.hero{min-height:590px;align-items:start}.hero-inner{padding-top:64px;padding-bottom:105px}.hero-photo{object-position:58% center}.hero:after{background:linear-gradient(90deg,rgba(25,18,14,.85),rgba(25,18,14,.3))}h1{font-size:76px;margin-top:30px;max-width:100%}.hero .eyebrow{font-size:9px;word-spacing:1px}.hero-copy{font-size:13px;max-width:290px}.hero-actions{gap:21px;flex-wrap:wrap}.hero-actions .button{padding:12px 16px;font-size:11px}.hero-actions .text-link{font-size:11px}.hero-note{width:85px;height:85px;right:0;bottom:17px;font-size:16px}.hero-note small{font-size:7px}.hero-note span{font-size:20px}.ribbon-inner{min-height:94px;grid-template-columns:1fr 1fr}.ribbon-item{padding:10px 4px;font-size:9px;gap:8px}.ribbon-item:first-child{justify-content:center}.ribbon-item:nth-child(2){border:0}.ribbon-item:last-child{grid-column:1/-1;border-top:1px solid #617366;padding-top:8px}.ribbon-item .icon{width:16px;height:16px}.intro{padding:43px 0}.intro h2{font-size:30px}.intro p{font-size:12px}.section{padding:56px 0}h2{font-size:40px}.section-top{display:block;margin-bottom:28px}.section-top>p{margin-top:18px;max-width:none;font-size:12px}.hotel-grid{grid-template-columns:1fr;gap:34px}.hotel-image{order:2}.hotel-image img{height:310px}.hotel-copy h2{font-size:44px}.hotel-copy>p{font-size:12px}.program-layout{display:block}.day-tabs{flex-direction:row;gap:0;margin-bottom:30px}.day-tab{padding:12px 10px;flex:1;min-width:0}.day-tab .day{font-size:22px}.day-tab small{font-size:9px}.day-tab .icon{display:none}.program-note{display:none}.day-panel h3{font-size:30px}.timeline li{grid-template-columns:65px 1fr;gap:10px}.timeline li:not(:last-child):before{left:73px}.event{padding-left:20px}.timeline time{font-size:10px}.event h4{font-size:22px}.event p{font-size:11px}.route-heading{gap:8px;font-size:9px;flex-wrap:wrap}.route-heading span{padding-right:9px}.route-grid{grid-template-columns:1fr;gap:25px}.route-aside{padding:28px}.stop{grid-template-columns:30px 1fr 28px;gap:8px}.stop h3{font-size:24px}.stop p{font-size:11px}.dinner{grid-template-columns:1fr}.dinner-photo{height:280px;min-height:0}.dinner-copy{padding:37px 25px 42px}.dinner h2{font-size:43px}.pub-list{grid-template-columns:1fr;gap:28px}.pub{padding-top:17px}.pub-number{margin-bottom:9px}.pub h3{font-size:29px;margin-bottom:9px}.pub p{min-height:0;margin-bottom:12px}.pub small{margin:12px 0}.chorus{padding:20px 17px;gap:15px;align-items:start}.chorus h3{font-size:24px}.chorus p{font-size:11px}.packing-grid{grid-template-columns:1fr;gap:18px}.packing h2{font-size:40px}.packing-list{gap:0 17px}.packing-list label{font-size:11px;gap:8px}.footer-bottom{flex-direction:column;gap:10px;margin-top:22px}.footer-title{font-size:30px}}
+    html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+    button,a,input,label{touch-action:manipulation}
+    @media screen and (max-width:600px){
+      html{scroll-padding-top:135px}
+      .wrap{width:calc(100% - max(20px,env(safe-area-inset-left)) - max(20px,env(safe-area-inset-right)))}
+      header{position:sticky;top:0}
+      .nav{min-height:0;gap:4px;padding-block:8px}
+      .brand{min-height:44px}
+      .nav-links{gap:4px}
+      .nav-links a{display:flex;align-items:center;justify-content:center;flex:1;min-height:44px;padding:0 3px;font-size:12px;text-align:center}
+      .hero{min-height:0}
+      .hero-inner{padding-block:36px 32px}
+      h1{font-size:60px;line-height:1.02;margin-block:23px 20px;overflow-wrap:break-word}
+      .hero .eyebrow{font-size:10px;gap:8px}
+      .hero .eyebrow:before{width:18px;flex-shrink:0}
+      .hero-copy{font-size:15px;line-height:1.75;max-width:none}
+      .hero-actions{display:grid;gap:12px;margin-top:24px}
+      .hero-actions .button{min-height:48px;font-size:14px}
+      .hero-actions .text-link{justify-self:start;min-height:44px;font-size:13px}
+      .hero-note{display:none}
+      .ribbon-inner{grid-template-columns:1fr;padding-block:10px}
+      .ribbon-item,.ribbon-item:first-child{justify-content:flex-start;font-size:12px;gap:12px;border:0;padding:7px 0}
+      .ribbon-item:last-child{grid-column:auto;border:0;padding:7px 0}
+      .ribbon-item .icon{width:20px;height:20px}
+      .intro p,.hotel-copy>p,.section-top>p,.event p,.stop p,.route-aside p,.dinner p,.pub p,.chorus p,.packing p{font-size:15px;line-height:1.75}
+      .eyebrow,.section-number{font-size:11px}
+      .hotel-address{font-size:13px;align-items:flex-start}
+      .hotel-image img{height:auto;aspect-ratio:4/3}
+      .photo-label{max-width:calc(100% - 60px);font-size:20px}
+      .text-link,.pub .text-link{min-height:44px;font-size:14px;line-height:1.4;padding-block:8px}
+      .hotel-links{gap:8px 22px}
+      .day-tab{min-height:70px;padding:13px 10px}
+      .day-tab .day{font-size:25px}
+      .day-tab small{font-size:12px}
+      .day-panel h3{line-height:1.15}
+      .timeline li{grid-template-columns:minmax(0,1fr);gap:8px;padding:0 0 28px 22px}
+      .timeline li:not(:last-child):before{left:3px;top:9px;bottom:-5px}
+      .timeline li:after{content:'';position:absolute;left:0;top:5px;width:7px;height:7px;border-radius:50%;background:var(--wine)}
+      .timeline time{font-size:12px;line-height:1.4;padding:0}
+      .event{padding-left:0;min-width:0}
+      .event:before{display:none}
+      .event h4{font-size:26px;line-height:1.15}
+      .tag{font-size:11px;padding:4px 8px}
+      .program-footer{font-size:13px}
+      .route-heading{font-size:12px;line-height:1.6;align-items:flex-start}
+      .route-heading span{border:0}
+      .stop{grid-template-columns:26px minmax(0,1fr) 44px;gap:8px}
+      .stop h3{line-height:1.15}
+      .map-link{width:44px;height:44px}
+      .map-link .icon{width:19px;height:19px}
+      .route-aside .button{min-height:48px;font-size:13px;white-space:normal}
+      .route-small{font-size:13px!important}
+      .weather-note{font-size:14px;line-height:1.75}
+      .dinner-copy{padding-inline:max(24px,env(safe-area-inset-left)) max(24px,env(safe-area-inset-right))}
+      .dinner h2{font-size:40px}
+      .wine-note p{font-size:14px}
+      .pub small,.pub-number{font-size:12px}
+      #borrelen>p.muted{font-size:12px!important}
+      .packing-list{grid-template-columns:1fr;gap:0}
+      .packing-list label{min-height:54px;font-size:15px;gap:14px;padding-block:13px}
+      .packing-list input{width:23px;height:23px}
+      .packing-progress{font-size:13px!important}
+      .practical p{font-size:14px}
+      .footer{padding-bottom:max(25px,env(safe-area-inset-bottom))}
+      .footer-date,.footer-bottom{font-size:12px}
+      .footer-bottom a{display:inline-block;min-height:44px;padding-block:10px}
+    }
+    @media screen and (max-width:360px){h1{font-size:54px}.nav-links a{font-size:11px}.hero .eyebrow{font-size:9px}.dinner h2{font-size:36px}}
+    @media screen and (max-width:900px) and (max-height:500px){
+      html{scroll-padding-top:20px}
+      header{position:relative}
+      .wrap{width:calc(100% - max(24px,env(safe-area-inset-left)) - max(24px,env(safe-area-inset-right)))}
+      .hero{min-height:0}
+      .hero-inner{padding-block:32px}
+      h1{font-size:64px}
+      .hero-note{display:none}
+    }
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-inner{animation:none}}
     @media print{header,.hero-actions,.day-tabs,.hero-note,.packing,.footer-bottom,.button,.map-link{display:none!important}.hero{min-height:280px}.hero-inner{padding:30px 0}h1{font-size:65px}.section{padding:25px 0}.day-panel[hidden]{display:block!important}.program-layout,.hotel-grid,.route-grid{display:block}.day-panel{break-inside:avoid;margin-bottom:25px}.hotel-image,.dinner-photo{display:none}.dinner{display:block}.dinner-copy{padding:25px}.wrap{width:95%}.pub-list{gap:20px}body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
   </style>
